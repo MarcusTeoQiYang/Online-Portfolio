@@ -13,7 +13,6 @@ import {BrowserRouter, Route, Link, Routes} from 'react-router-dom';
 function App() {
   return (
     <body>
-      
       <div className="App">
 
       <Navbar />
