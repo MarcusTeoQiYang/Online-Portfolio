@@ -20,6 +20,12 @@ body {
   height: 100%;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+  background-image: auto;
+  flex-direction:column;
   /* CSS Smooth scroll */
 }
 .navbar {
@@ -570,18 +576,76 @@ section {
   color: #24262b;
   background-color: #ffffff;
 }
-/* Responsive */
-@media(max-width: 767px) {
+/* Mobile */
+@media only screen and (max-width: 756) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
+
 }
-@media(max-width: 574px) {
+@media only screen and (max-width: 574px) {
   .footer-col {
-    width: 100%;
+    width: auto;
   }
+
+
+
+  /* Navbar */
+  .navbar a {
+    margin: auto;
+    text-decoration: none;
+    color: #FFFDD0;
+    transition: all 0.35s ease;
+  }
+  .navbar ul li {
+    margin: auto;
+    padding: auto;
+  }
+  /* About me */
+  .skills h2, .bio2 {
+    font-size: 1.25rem;
+  }
+  .skills, .skills-col, .bioimage, .bio-text {
+    flex-direction: column;
+    width: auto;
+  }
+  /* Experience */
+  .exp-left, .exp-right {
+    font-size: 1rem;
+  }
+  .exp-content p {
+    font-size: 1rem;
+  }
+   .exp1, .exp2, .exp3 {
+    flex-direction: column;
+   }
+   .exp h1, .proj h1, .me h1, .int h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    padding-top:  15px;
+  }
+   /* Interest */
+   .intcontainer {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border-style: dashed;
+  }
+  .int p { 
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  
+  
+
+
 }
+
 /* Effects */
 .highlight {
   display: inline-block;
