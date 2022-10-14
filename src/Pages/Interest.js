@@ -1,9 +1,6 @@
-import Bulb from '../src/images/Bulb.png'
-import Funny from '../src/images/Funny.JPG'
-import WebDevPage from './WebDevPage'
-import EthHackPage from './EthHackPage'
-import InterestStart from './InterestStart'
-import {Routes, Route, Link} from 'react-router-dom';
+import Bulb from '../images/Bulb.png'
+import Funny from '../images/Funny.JPG'
+// import {Routes, Route, Link} from 'react-router-dom';
 
 const Interest = () => {
     return ( 
@@ -18,14 +15,14 @@ const Interest = () => {
                     <img src={ Funny } alt="STEng" />
                 </div>
             <ul>
-                <li><Link to='/hack'>Ethical Hacking</Link></li>
-                <li><Link to="web">Web Development</Link></li>
+                {/* <li><Link to='/hack'>Ethical Hacking</Link></li>
+                <li><Link to="web">Web Development</Link></li> */}
             </ul>
-            <Routes>
+            {/* <Routes>
             <Route index element={<InterestStart/>} />
             <Route path='/hack' element={<EthHackPage/>} />
             <Route path='/web' element={<WebDevPage/>} />
-        </Routes>
+        </Routes> */}
         </div>
         </div>
      );

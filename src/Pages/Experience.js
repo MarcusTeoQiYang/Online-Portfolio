@@ -1,6 +1,6 @@
-import ST from '../src/images/STEng.png'
-import Esprit from '../src/images/Esprit.png'
-import NTUC from '../src/images/NTUC.png'
+import ST from '../images/STEng.png'
+import Esprit from '../images/Esprit.png'
+import NTUC from '../images/NTUC.png'
 
 const Experience = () => {
     return ( 

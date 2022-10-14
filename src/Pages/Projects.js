@@ -1,8 +1,8 @@
 import { FaGithub } from "react-icons/fa";
-import Port from '../src/images/PortJPEG.JPG'
-import Soon from '../src/images/ComingSoon.jpg'
-import VR from '../src/images/VrJPEG.JPG'
-import MP from '../src/images/MP.JPG'
+import Port from '../images/PortJPEG.JPG'
+import Soon from '../images/ComingSoon.jpg'
+import VR from '../images/VrJPEG.JPG'
+import MP from '../images/MP.JPG'
 const Projects = () => {
     return ( 
         <div className="proj">
