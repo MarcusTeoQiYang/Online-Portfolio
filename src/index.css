@@ -11,6 +11,7 @@
 body {
   background-color: #FFFDD0;
   height: 100vh;
+  width: auto;
   /* overflow: hidden; */
 
 }
@@ -19,10 +20,6 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  padding: 0px;
-  margin: 0px;
-  background-size: cover;
-  background-image: auto;
   flex-direction:column;
   /* CSS Smooth scroll */
 }
@@ -31,7 +28,7 @@ body {
   z-index: 100;
   display: flex; */
   width: 100%;
-  height: 60px;
+  height: 80px;
   background-color: #0c192c;;
   /* background: rgba(0, 0, 0, 0.2); */
   /* border-bottom: 1px solid #FFFDD0;
@@ -52,7 +49,6 @@ body {
   color: #f1356d;
 }
 .navbar ul li {
-  margin: 0 1rem;
   padding: 1rem;
 }
 
@@ -76,8 +72,11 @@ body {
 
 
 .title {
-  font-size: 2.5rem;
+  height: 500px;
+  width: auto;
+  font-size: 2rem;
   padding-right: 30%;
+  padding-left: 10%;
   z-index: 100;
   padding-top: 15%;
 }
@@ -124,6 +123,11 @@ body {
   grid-template-columns: auto;
   grid-auto-rows: minmax(150, auto);
   grid-gap: 20px;
+  margin: 10px;
+}
+.bioimage {
+  display: flex;
+  justify-content: center;
 }
 .skills {
   text-align: center;
@@ -137,14 +141,13 @@ body {
 }
 
 .bio-text {
-  padding-top: 90px;
+  
 }
 .bio2 {
   padding-bottom: 3%;
 }
 .skillicons  {
   display: flex;
-  flex-wrap: wrap;
 }
 .skills-col {
   padding: 0 15px;
@@ -177,6 +180,7 @@ body {
 .projcontainer {
   height: auto;
   width: auto;
+  margin: 15px;
   /* border-style: solid;
   border-radius: 10px; */
 }
@@ -268,6 +272,7 @@ body {
 }
 .myproj {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   margin-bottom: 15px;
 }
@@ -278,7 +283,7 @@ body {
 /* Experience page */
 .exp {
   height: 100%;
-  width: 65%;
+  width: auto;
 }
 .exp h1 {
   text-align: center;
@@ -287,7 +292,7 @@ body {
   padding-top:  15px;
 }
 .exp h2 {
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   text-align: center;
 }
 .exp h3 {
@@ -298,35 +303,26 @@ body {
   font-size: 15px;
 }
 .expcontainer {
-  height: auto;
-  width: auto;
-}
-.exp1 {
-  display: flex;
-  align-items: center;
-  grid-gap: 20px;
-  background-color: #FFFDD0;
-  border-radius: 15px;
-  border-style: solid;
 
 }
-.exp2 {
+.expbox {
   display: flex;
   align-items: center;
   grid-gap: 20px;
   background-color: #FFFDD0;
-  margin-top: 20px;
   border-radius: 15px;
   border-style: solid;
+  margin: 15px;
+  min-width: 400px;
+
 }
-.exp3 {
+.expspace {
+  margin: 15px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  grid-gap: 20px;
-  background-color: #FFFDD0;
-  margin-top: 20px;
-  border-radius: 15px;
-  border-style: solid;
+
 }
 .expcontainer img {
   border-radius: 10px;
@@ -347,8 +343,10 @@ body {
   margin-right: auto;
 }
 .exp-right {
-  width: 400px;
   text-align: center;
+}
+.exp-left {
+  width: 400px;
 }
 /* Interest page */
 .int h1 {
@@ -358,10 +356,12 @@ body {
     padding-top:  15px;
 }
 .intcontainer {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 700px;
-  height: 600px;
+  width: auto;
+  height: auto;
   border-style: dashed;
 }
 
@@ -392,7 +392,16 @@ body {
   display: inline-block;
 
 }
-
+.buttonContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.homeButton {
+  padding: 15px;
+  margin: 5px;
+}
 .int-box  {
   background-color: #23d5ab;
   width: 200px;
@@ -443,7 +452,7 @@ section {
   width: 100%;
   height: 100vh;
 }
-#Title {
+.title {
   /* background: #0c192c; */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -460,30 +469,30 @@ section {
     background-position: 0% 50%;
   }
 }
-#aboutme {
+.me {
   background-color: #fff;
   background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.1em, transparent 0.1em);
   background-size: 100% 1.2em;
   border-top-style: solid;
-  height: 100vh;
+  height: auto;
 }
-#projects {
+.proj {
   background-color: #fff;
   background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.1em, transparent 0.1em);
   background-size: 100% 1.2em;
   border-top-style: solid;
   border-bottom-style: solid;
-  height: 110vh;
+  height: autovh;
 	}
-#experience {
-  height: 130vh;
+.exp {
+  height: auto;
   background-color: #fff;
      background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.1em, transparent 0.1em);
      background-size: 100% 1.2em;
      border-bottom-style: solid;
 }
-#interest {
-  height: 120vh;
+.int {
+  height: auto;
   background-color: #fff;
      background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.1em, transparent 0.1em);
      background-size: 100% 1.2em;
@@ -587,6 +596,15 @@ section {
     width: auto;
   }
 
+  /* Title */
+  .title {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 645px;
+  }
+
 
 
   /* Navbar */
@@ -599,14 +617,24 @@ section {
   .navbar ul li {
     margin: auto;
     padding: auto;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   /* About me */
   .skills h2, .bio2 {
     font-size: 1.25rem;
   }
-  .skills, .skills-col, .bioimage, .bio-text {
+  .biocontainer {
+    display: flex;
     flex-direction: column;
+  }
+  .me p{
+    height: auto;
     width: auto;
+    font-size: 20px;
+  }
+  .skillicons {
+
   }
   /* Experience */
   .exp-left, .exp-right {
@@ -615,7 +643,7 @@ section {
   .exp-content p {
     font-size: 1rem;
   }
-   .exp1, .exp2, .exp3 {
+   .expbox {
     flex-direction: column;
    }
    .exp h1, .proj h1, .me h1, .int h1 {

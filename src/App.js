@@ -11,7 +11,9 @@ import {BrowserRouter, Route, Link, Routes} from 'react-router-dom';
 function App() {
   return (
       <div className="App">
+        <div className="navbar">
         <Navbar/>
+        </div>
         <Routes>
         <Route path="/" element={<Title />} />
         <Route path="/AboutMe" element={<AboutMe />} />

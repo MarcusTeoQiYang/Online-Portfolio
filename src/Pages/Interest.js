@@ -5,8 +5,8 @@ import Funny from '../images/Funny.JPG'
 const Interest = () => {
     return ( 
         <div className="int">
-            <h1><div className="highlight">Interest</div></h1>
-            <p>A list of my current interests that<br/>I'm planning to learn right now. Check it out!</p>
+            <h1><div className="highlight">Ideas/Interest</div></h1>
+            <p>A list of my current ideas that<br/>I'm planning to make either right now or in the future. Check it out!</p>
             <div className="intcontainer">
             <div className="lightbulb">
                 <img src={ Bulb } alt="STEng" />
@@ -14,15 +14,13 @@ const Interest = () => {
                 <div className="funny">
                     <img src={ Funny } alt="STEng" />
                 </div>
-            <ul>
-                {/* <li><Link to='/hack'>Ethical Hacking</Link></li>
-                <li><Link to="web">Web Development</Link></li> */}
-            </ul>
-            {/* <Routes>
-            <Route index element={<InterestStart/>} />
-            <Route path='/hack' element={<EthHackPage/>} />
-            <Route path='/web' element={<WebDevPage/>} />
-        </Routes> */}
+            <div className="buttonContainer">
+                <button className='homeButton'>YumWhat?/!</button>
+                <button className='homeButton'>TypeShooter</button>
+            </div>
+                
+            
+
         </div>
         </div>
      );

@@ -16,12 +16,13 @@ const Projects = () => {
                     </div>
                         <h3>Personal website</h3>
                         <p>This is my first online portfolio website
-                        which I have build using React,
+                        which I have build using React and HTML,
                         I have also styled it using CSS.</p>
                         <div className="linkbox1">
                         <a href="https://github.com/MarcusTeoQiYang/Online-Portfolio" target= "blank">GitHub<FaGithub/></a>
                         </div>
                 </div>
+                
                 <div className="box1">
                 <div className="projimage">
                     <div className="blur">
