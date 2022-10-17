@@ -12,7 +12,7 @@ const Experience = () => {
 
             <div className="expbox">
                 <div className="exp-head">
-                <u><h2>Our Code Lab</h2></u>
+                <u><h2>OurCodeLab</h2></u>
                 <img src={ OCL } alt="OCL" />
                 </div>
                 <div className="exp-left">
@@ -24,7 +24,8 @@ const Experience = () => {
                      to learn from more experienced people while also 
                      working alongside them. Working here will also provide
                       me the opportunity to learn what it's like to interact 
-                      with clients and how coding is applied workplace.</p>
+                      with clients and how coding is applied workplace. Its like
+                      a side hustle!</p>
                 </div>
                 </div>
                 <div className="exp-right">
@@ -44,7 +45,7 @@ const Experience = () => {
                 <p>As an intern, my objective was to
                     Create and Design Python Script to extract data from Hive.<br/>
                     • Compare the Dashboard Data and extracted data<br/>
-                    • Create and Maintain up-to-date Python Scripte<br/>
+                    • Create and Maintain up-to-date Python Script<br/>
                     • Work closely with Developers to understand the functional requirements</p>
                 </div>
                 </div>

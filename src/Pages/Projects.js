@@ -22,6 +22,8 @@ const Projects = () => {
                         <a href="https://github.com/MarcusTeoQiYang/Online-Portfolio" target= "blank">GitHub<FaGithub/></a>
                         </div>
                 </div>
+
+                
                 
                 <div className="box1">
                 <div className="projimage">

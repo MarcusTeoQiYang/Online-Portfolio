@@ -1,4 +1,6 @@
 import {FaGithub, FaEnvelope, FaLinkedin, FaInstagram, FaReact, FaNodeJs, FaCss3, FaHtml5} from "react-icons/fa";
+import {BrowserRouter, Route, Link, Routes} from 'react-router-dom';
+
 const Footer = () => {
     return (
         <div class="container">
@@ -13,10 +15,11 @@ const Footer = () => {
                 <div className="footer-col">
                     <h4>Site Map</h4>
                     <ul>
-                        <li><a href="#aboutme">About me</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#interest">Interest</a></li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/AboutMe'>About</Link></li>
+                        <li><Link to='/Projects'>Projects</Link></li>
+                        <li><Link to='/Experience'>Experience</Link></li>
+                        <li><Link to='/Interest'>Ideas!!</Link></li>
                         
                         {/* <li><a href="#contactme">Contact me</a></li> */}
                     </ul>
