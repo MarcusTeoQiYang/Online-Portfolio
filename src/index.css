@@ -119,12 +119,16 @@ body {
   grid-column: 1 / 3;
   font-size: 3rem;
   padding-top: 1%;
+  padding-bottom: 2%;
+}
+.bio-text h2 {
+  padding-top: 2%;
 }
 .biocontainer {
   display: grid;
   grid-template-columns: auto;
   grid-auto-rows: minmax(150, auto);
-  grid-gap: 20px;
+  grid-gap: 0px;
   margin: 10px;
 }
 .bioimage {
@@ -161,13 +165,13 @@ body {
   color: #0c192c;
   border-style: solid;
 }
-.bio-text p {
+.me p {
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
   color: #0c192c;
   text-decoration: none;
-  width: auto;
+  width: 800px;
   height: auto;
   border-radius: 10px;
   border-style: solid;
@@ -243,7 +247,7 @@ body {
   justify-content: center;
   padding-top: 25px;
 }
-.proj a {
+.proj button {
   display: flex;
   justify-content: center;
   color: #FFFDD0;
@@ -254,10 +258,14 @@ body {
   border-radius: 15px;
   margin: 10px;
   transition: all 0.3s ease;
+
 }
-.proj a:hover {
+.proj button:hover {
   color: #f1356d;
-  padding-top: 8px;
+
+}
+.proj a {
+  text-decoration: none;
 }
 .proj p {
   text-align: center;
@@ -282,6 +290,16 @@ body {
   height: 100%;
   width: auto;
 }
+.expbuttonbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.expbutton {
+  font-size: 1rem;
+
+}
 .exp h1 {
   text-align: center;
   font-size: 3rem;
@@ -289,28 +307,29 @@ body {
   padding-top:  15px;
 }
 .exp h2 {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   text-align: center;
 }
 .exp h3 {
   text-align: center;
   padding-bottom: 10px;
+  width: 200px;
 }
 .exp p {
   font-size: 15px;
 }
 .expcontainer {
-
+  width: auto;
 }
 .expbox {
   display: flex;
   align-items: center;
-  grid-gap: 20px;
   background-color: #FFFDD0;
   border-radius: 15px;
   border-style: solid;
   margin: 15px;
-  min-width: 400px;
+  width: auto;
+
 
 }
 .expspace {
@@ -319,6 +338,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
 
 }
 .expcontainer img {
@@ -336,15 +357,19 @@ body {
 }
 .exp img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px;
 }
 .exp-right {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  margin: 15px;
+
 }
 .exp-left {
-  width: 400px;
+  width: auto;
 }
+
 /* Interest page */
 .int h1 {
   text-align: center;
@@ -583,22 +608,21 @@ section {
 /* Mobile */
 @media only screen and (max-width: 756) {
   .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
+
   }
 
 }
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 575px) {
   .footer-col {
     width: auto;
   }
 
   /* Title */
   .title {
-    padding-left: 0%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.85rem;
     height: 645px;
   }
   /* Navbar */
@@ -646,6 +670,7 @@ section {
   .schproj .box2 {
     width: 200px;
     height: 320px;
+    
   }
   .projimage img {
     height: 120px;
@@ -653,16 +678,18 @@ section {
   }
   .projcontainer h2 {
     font-size: 20px;
+    
   }
   /* Experience */
-  .exp-left, .exp-right {
+  .exp-left, .exp-right, .exp-content p {
     font-size: 1rem;
   }
-  .exp-content p {
-    font-size: 1rem;
+  .expbuttonbox {
+    margin-top: 15px;
   }
    .expbox {
     flex-direction: column;
+    width: auto;
    }
    .exp h1, .proj h1, .me h1, .int h1 {
     justify-content: center;
@@ -670,6 +697,13 @@ section {
     font-size: 2rem;
     padding-bottom: 15px;
     padding-top:  15px;
+  }
+  .expspace {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .exp h3 {
+    width: auto;
   }
    /* Interest */
    .intcontainer {

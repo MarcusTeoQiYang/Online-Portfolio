@@ -1,6 +1,6 @@
 import Bulb from '../images/Bulb.png'
 import Funny from '../images/Funny.JPG'
-// import {Routes, Route, Link} from 'react-router-dom';
+// c
 
 const Interest = () => {
     return ( 
@@ -15,8 +15,8 @@ const Interest = () => {
                     <img src={ Funny } alt="STEng" />
                 </div>
             <div className="buttonContainer">
-                <button className='homeButton'>YumWhat?/!</button>
-                <button className='homeButton'>TypeShooter</button>
+                <button className='ideaButton'>YumWhat?/!</button>
+                <button className='ideaButton'>TypeShooter</button>
             </div>
                 
             

@@ -26,6 +26,10 @@ const Experience = () => {
                       me the opportunity to learn what it's like to interact 
                       with clients and how coding is applied workplace. Its like
                       a side hustle!</p>
+                      <div className="expbuttonbox">
+                        <button className='expbutton'>What I did</button>
+                      </div>
+                    
                 </div>
                 </div>
                 <div className="exp-right">
@@ -47,6 +51,9 @@ const Experience = () => {
                     • Compare the Dashboard Data and extracted data<br/>
                     • Create and Maintain up-to-date Python Script<br/>
                     • Work closely with Developers to understand the functional requirements</p>
+                    <div className="expbuttonbox">
+                        <button className='expbutton'>What I did</button>
+                    </div>
                 </div>
                 </div>
                 <div className="exp-right">

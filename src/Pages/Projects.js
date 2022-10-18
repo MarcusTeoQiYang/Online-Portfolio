@@ -3,6 +3,7 @@ import Port from '../images/PortJPEG.JPG'
 import Soon from '../images/ComingSoon.jpg'
 import VR from '../images/VrJPEG.JPG'
 import MP from '../images/MP.JPG'
+
 const Projects = () => {
     return ( 
         <div className="proj">
@@ -19,7 +20,7 @@ const Projects = () => {
                         which I have build using React and HTML,
                         I have also styled it using CSS.</p>
                         <div className="linkbox1">
-                        <a href="https://github.com/MarcusTeoQiYang/Online-Portfolio" target= "blank">GitHub<FaGithub/></a>
+                        <a href="https://github.com/MarcusTeoQiYang/Online-Portfolio" target= "blank"><button>GitHub<FaGithub/></button></a>
                         </div>
                 </div>
 
@@ -36,7 +37,7 @@ const Projects = () => {
                         <div className="blur">
                         <p>More projects are to be made in the future by me, stay tuned!.</p>
                         <div className="linkbox4">
-                        <a>GitHub<FaGithub/></a>
+                        <a><button>GitHub<FaGithub/></button></a>
                         </div>
                         </div>
 
@@ -55,8 +56,8 @@ const Projects = () => {
                         sensors that improves nurses' deployment to elders 
                         at night.</p>
                     <div className="linkbox2">
-                        <a href="https://docs.google.com/document/d/1YKmXxZbrGsMoAgdf_3qFliQxU8c234kM/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank">Report</a>
-                        <a href="https://docs.google.com/presentation/d/1PYPQgOXhpAPwTGWbhekpWYJl5yQP9Y0j/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank">Slides</a>
+                        <a href="https://docs.google.com/document/d/1YKmXxZbrGsMoAgdf_3qFliQxU8c234kM/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Report</button></a>
+                        <a href="https://docs.google.com/presentation/d/1PYPQgOXhpAPwTGWbhekpWYJl5yQP9Y0j/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Slides</button></a>
                     </div>
                 </div>
                 <div className="box2">
@@ -70,8 +71,8 @@ const Projects = () => {
                     lab safety and circuit patching.
                     </p>
                     <div className="linkbox3">
-                        <a href="https://github.com/MarcusTeoQiYang/Short-Circuit-VR" target="blank">GitHub<FaGithub/></a>
-                        <a href="https://drive.google.com/file/d/10KOuSh0tcBcKh4AwJ4A0VY_5o3ZPf0Ub/view?usp=sharing" target="blank">Demo</a>
+                        <a href="https://github.com/MarcusTeoQiYang/Short-Circuit-VR" target="blank"><button>GitHub<FaGithub/></button></a>
+                        <a href="https://drive.google.com/file/d/10KOuSh0tcBcKh4AwJ4A0VY_5o3ZPf0Ub/view?usp=sharing" target="blank"><button>Demo</button></a>
                     </div>
                 </div>
             </div>
