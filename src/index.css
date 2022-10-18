@@ -40,7 +40,7 @@ body {
   color: #f1356d;
 }
 .navbar a {
-  margin: 100px;
+  
   text-decoration: none;
   color: #FFFDD0;
   transition: all 0.35s ease;
@@ -50,6 +50,8 @@ body {
 }
 .navbar ul li {
   padding: 1rem;
+  /* margin-left: 70px;
+  margin-right: 70px; */
 }
 
 .navbar ul {
@@ -146,6 +148,8 @@ body {
   display: flex;
 }
 .skills-col {
+  display: flex;
+  flex-direction: column;
   padding: 0 15px;
   text-align: center;
   text-decoration: none;
@@ -163,14 +167,11 @@ body {
   justify-content: center;
   color: #0c192c;
   text-decoration: none;
-  width: 950px;
-  height: 185px;
+  width: auto;
+  height: auto;
   border-radius: 10px;
   border-style: solid;
   background-color: #FFFDD0;
-}
-.skills-col h2 {
-  height: 35px;
 }
 /* Project page */
 .projcontainer {
