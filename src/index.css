@@ -186,7 +186,7 @@ body {
 }
 .projcontainer {
   height: auto;
-  width: 510px;
+  width: auto;
   margin: 15px;
   /* border-style: solid;
   border-radius: 10px; */
@@ -285,13 +285,14 @@ body {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
-.schproj::-webkit-scrollbar, .myproj::-webkit-scrollbar {
+/* .schproj::-webkit-scrollbar, .myproj::-webkit-scrollbar {
   display: none;
-}
+} */
 .schproj {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 /* Experience page */
@@ -673,21 +674,30 @@ section {
   }
   /* Projects */
   .projcontainer .box1 {
-    width: 200px;
+    width: 185px;
     height: 270px;
   }
   .schproj .box2 {
-    width: 200px;
+    width: 185px;
     height: 320px;
     
   }
   .projimage img {
     height: 120px;
-    width: 200px;
+    width: 185px;
   }
   .projcontainer h2 {
     font-size: 20px;
     
+  }
+  .projcontainer .box1, .projcontainer .box2 {
+    width: 185px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .myproj {
+    justify-content: center;
   }
   /* Experience */
   .exp-left, .exp-right, .exp-content p {

@@ -39,70 +39,8 @@ const Projects = () => {
                         <a><button>GitHub<FaGithub/></button></a>
                         </div>
                         </div>
-                </div>
                 
-                <div className="box1">
-                <div className="projimage">
-                    <div className="blur">
-                    <img src={ Soon } alt="Portfolio" />
-                    </div>
-                    </div>
-                        <h3>Coming soon</h3>
-                        <p>Stay tuned!</p>
-                        <div className="blur">
-                        <p>More projects are to be made in the future by me, stay tuned!.</p>
-                        <div className="linkbox4">
-                        <a><button>GitHub<FaGithub/></button></a>
-                        </div>
-                        </div>
-                </div>
-
-                <div className="box1">
-                <div className="projimage">
-                    <div className="blur">
-                    <img src={ Soon } alt="Portfolio" />
-                    </div>
-                    </div>
-                        <h3>Coming soon</h3>
-                        <p>Stay tuned!</p>
-                        <div className="blur">
-                        <p>More projects are to be made in the future by me, stay tuned!.</p>
-                        <div className="linkbox4">
-                        <a><button>GitHub<FaGithub/></button></a>
-                        </div>
-                        </div>
-                </div>
-
-                <div className="box1">
-                <div className="projimage">
-                    <div className="blur">
-                    <img src={ Soon } alt="Portfolio" />
-                    </div>
-                    </div>
-                        <h3>Coming soon</h3>
-                        <p>Stay tuned!</p>
-                        <div className="blur">
-                        <p>More projects are to be made in the future by me, stay tuned!.</p>
-                        <div className="linkbox4">
-                        <a><button>GitHub<FaGithub/></button></a>
-                        </div>
-                        </div>
-                </div>
-
-                <div className="box1">
-                <div className="projimage">
-                    <div className="blur">
-                    <img src={ Soon } alt="Portfolio" />
-                    </div>
-                    </div>
-                        <h3>Coming soon</h3>
-                        <p>Stay tuned!</p>
-                        <div className="blur">
-                        <p>More projects are to be made in the future by me, stay tuned!.</p>
-                        <div className="linkbox4">
-                        <a><button>GitHub<FaGithub/></button></a>
-                        </div>
-                        </div>
+                
                 </div>
 
                 </div>
