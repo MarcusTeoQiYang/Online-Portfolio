@@ -5,7 +5,7 @@ import AboutMe from '../src/Pages/AboutMe';
 import Projects from '../src/Pages/Projects';
 import Interest from '../src/Pages/Interest';
 import Footer from './Footer';
-import {BrowserRouter, Route, Link, Routes} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 
 
 function App() {

@@ -1,5 +1,5 @@
 import {FaGithub, FaEnvelope, FaLinkedin, FaInstagram, FaReact, FaNodeJs, FaCss3, FaHtml5} from "react-icons/fa";
-import {BrowserRouter, Route, Link, Routes} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return (

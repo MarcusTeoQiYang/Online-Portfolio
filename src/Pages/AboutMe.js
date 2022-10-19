@@ -1,5 +1,5 @@
 import Me from '../images/PhotoMe.jpg'
-import { FaPython,FaReact,FaNodeJs,FaJava,FaUnity,FaCss2, FaCss3, FaHtml5 } from 'react-icons/fa';
+import { FaPython,FaReact,FaJava,FaUnity, FaCss3, FaHtml5 } from 'react-icons/fa';
 import { DiJavascript } from "react-icons/di";
 import { SiFirebase,SiCsharp } from "react-icons/si"
 const Aboutme = () => {

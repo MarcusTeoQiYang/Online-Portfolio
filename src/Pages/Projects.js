@@ -36,7 +36,7 @@ const Projects = () => {
                         <div className="blur">
                         <p>More projects are to be made in the future by me, stay tuned!.</p>
                         <div className="linkbox4">
-                        <a><button>GitHub<FaGithub/></button></a>
+                        <a><button href="#">GitHub<FaGithub/></button></a>
                         </div>
                         </div>
                 
