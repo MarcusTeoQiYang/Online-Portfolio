@@ -695,6 +695,10 @@ section {
   .exp-left, .exp-right, .exp-content p {
     font-size: 1rem;
   }
+  .exp-content p {
+    text-align: initial;
+    padding: 10px;
+  }
   .expbuttonbox {
     margin-top: 15px;
   }

@@ -21,11 +21,11 @@ const Experience = () => {
                     OurCodeLab curates holistic, user-friendly digital 
                     experiences and also builds
                      software for their clients; I joined his company 
-                     to learn from more experienced people while also 
+                     to learn from more experienced people than myself while also 
                      working alongside them. Working here will also provide
                       me the opportunity to learn what it's like to interact 
-                      with clients and how coding is applied workplace. Its like
-                      a side hustle!</p>
+                      with clients and how coding is applied to a workplace. 
+                      Its like a side hustle!</p>
                       <div className="expbuttonbox">
                         <button className='expbutton'>What I'm doing</button>
                       </div>
@@ -46,11 +46,10 @@ const Experience = () => {
                 <div className="exp-left">
                 
                 <div className="exp-content">
-                <p>As an intern, my objective was to
-                    Create and Design Python Script to extract data from Hive.<br/>
-                    • Compare the Dashboard Data and extracted data<br/>
-                    • Create and Maintain up-to-date Python Script<br/>
-                    • Work closely with Developers to understand the functional requirements</p>
+                <p>My role as an intern in ST Engineering was to test the system performance of REAMS.<br/><br/>
+                • Tested all dashboard load time in REAMS by simulating users and navigating to them using JMeter.<br/><br/>
+                • Assisted in the development of the division's first Selenium web automation framework, which will
+                 be used not only on REAMS but also on future projects that the division will work on. </p>
                     <div className="expbuttonbox">
                         <button className='expbutton'>What I did</button>
                     </div>
@@ -58,7 +57,7 @@ const Experience = () => {
                 </div>
                 <div className="exp-right">
                 <h3>Job scope: System Performance Tester</h3>
-                <p>September 2022 - Present</p>
+                <p>September 2022 - March 2023</p>
                 </div>
                 </div>
                 
@@ -111,5 +110,9 @@ const Experience = () => {
         </div>
      );
 }
- 
+// My time as an intern in ST Engineering was eye-opening and enjoyable, 
+// my division was working on a project called Rail Enterprise Asset Management System (REAMS)
+// which is a web base project that is equipped with data analytics capabilities to detect potential 
+// faults in the systems beforehand and initiate pre-emptive renovations or replacements overall improving
+//  railway service reliability as well as optimizing  overall life cycle cost in the Downtown Line.
 export default Experience;
