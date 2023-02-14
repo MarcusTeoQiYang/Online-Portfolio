@@ -3,6 +3,7 @@ import Port from '../images/PortJPEG.JPG'
 import Soon from '../images/ComingSoon.jpg'
 import VR from '../images/VrJPEG.JPG'
 import MP from '../images/MP.JPG'
+import YumWhat from '../images/YumWhat.JPG'
 
 const Projects = () => {
     return ( 
@@ -11,21 +12,33 @@ const Projects = () => {
             <div className="projcontainer">
                 <h2>Personal Projects</h2>
                 <div className="myproj">
-                <div className="box1">
+                <div className="box">
                 <div className="projimage">
                     <img src={ Port } alt="Portfolio" />
                     </div>
                         <h3>Personal website</h3>
                         <p>This is my first online portfolio website
-                        which I have build using React and HTML,
+                        which I have build using ReactJS and HTML,
                         I have also styled it using CSS.</p>
-                        <div className="linkbox1">
+                        <div className="linkbox">
                         <a href="https://github.com/MarcusTeoQiYang/Online-Portfolio" target= "blank"><button>GitHub<FaGithub/></button></a>
                         </div>
                 </div>
 
 
-                <div className="box1">
+                <div className="box">
+                <div className="projimage">
+                    <img src={ YumWhat } id="Portfolio" />
+                    </div>
+                        <h3>YumWhat?!</h3>
+                        <p>YumWhat?! gets nearby food location and randomly pick for you if you want.</p>
+                        <div className="linkbox">
+                        <a href="#"><button>GitHub<FaGithub/></button></a>
+                        <a  href="https://yumwhat.web.app/" target="blank"><button>Check it out!</button></a>
+                        </div>
+                </div>
+
+                <div className="box">
                 <div className="projimage">
                     <div className="blur">
                     <img src={ Soon } alt="Portfolio" />
@@ -35,18 +48,16 @@ const Projects = () => {
                         <p>Stay tuned!</p>
                         <div className="blur">
                         <p>More projects are to be made in the future by me, stay tuned!.</p>
-                        <div className="linkbox4">
-                        <a><button href="#">GitHub<FaGithub/></button></a>
+                        <div className="linkbox">
+                        <a  href="#"><button>GitHub<FaGithub/></button></a>
                         </div>
                         </div>
-                
-                
                 </div>
 
                 </div>
                 <h2>School projects</h2>
             <div className="schproj">
-                <div className="box2">
+                <div className="box">
                 <div className="projimage">
                     <img src={ MP } alt="soon" />
                     </div>
@@ -56,12 +67,12 @@ const Projects = () => {
                         by constructing a prototype out of Raspberry Pi and 
                         sensors that improves nurses' deployment to elders 
                         at night.</p>
-                    <div className="linkbox2">
+                    <div className="linkbox">
                         <a href="https://docs.google.com/document/d/1YKmXxZbrGsMoAgdf_3qFliQxU8c234kM/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Report</button></a>
                         <a href="https://docs.google.com/presentation/d/1PYPQgOXhpAPwTGWbhekpWYJl5yQP9Y0j/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Slides</button></a>
                     </div>
                 </div>
-                <div className="box2">
+                <div className="box">
                 <div className="projimage">
                     <img src={ VR } alt="soon" />
                     </div>
@@ -71,7 +82,7 @@ const Projects = () => {
                     This VR experience simulates an engineering lab, where participants may learn about 
                     lab safety and circuit patching.
                     </p>
-                    <div className="linkbox3">
+                    <div className="linkbox">
                         <a href="https://github.com/MarcusTeoQiYang/Short-Circuit-VR" target="blank"><button>GitHub<FaGithub/></button></a>
                         <a href="https://drive.google.com/file/d/10KOuSh0tcBcKh4AwJ4A0VY_5o3ZPf0Ub/view?usp=sharing" target="blank"><button>Demo</button></a>
                     </div>
