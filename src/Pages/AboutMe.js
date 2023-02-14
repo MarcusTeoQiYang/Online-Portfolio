@@ -41,7 +41,6 @@ const Aboutme = () => {
                             <img src={ Me } alt="me" />
                         </div>
                         <div className="bio-text">
-                            <div>
                                 <h2 className='bio2'>Making things work is my passion!&#128161;</h2>
                                 <p>I'm a Computer Engineering student at Temasek Polytechnic who has 
                                     always had an interest with computers. I learned a variety of coding 
@@ -50,7 +49,6 @@ const Aboutme = () => {
                                       in my opinion, can manage a wide range of tasks. I believe in lifelong learning 
                                       and am now working on honing and enhancing my coding skills by regularly coding 
                                       to maintain consistency.</p>
-                        </div>
                     </div>
             </div>
             
