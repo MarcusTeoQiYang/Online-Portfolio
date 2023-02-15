@@ -1,7 +1,7 @@
 import Me from '../images/PhotoMe.jpg'
 import { FaPython,FaReact,FaJava,FaUnity, FaCss3, FaHtml5 } from 'react-icons/fa';
 import { DiJavascript } from "react-icons/di";
-import { SiFirebase,SiCsharp } from "react-icons/si"
+import { SiFirebase,SiCsharp,SiSelenium,SiApachejmeter } from "react-icons/si"
 const Aboutme = () => {
     return ( 
         <div className="me">
@@ -34,6 +34,13 @@ const Aboutme = () => {
                                 <h2><u>VR Programming</u></h2>
                                 <ul>
                                     <FaUnity size = '2rem'/>
+                                </ul>
+                            </div>
+                            <div className="skills-col">
+                                <h2><u>Automation Testing</u></h2>
+                                <ul>
+                                    <SiSelenium size = '2rem'/>
+                                    <SiApachejmeter size = '2rem'/>
                                 </ul>
                             </div>
                         </div>
