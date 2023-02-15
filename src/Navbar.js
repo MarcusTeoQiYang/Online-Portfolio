@@ -4,10 +4,15 @@ import React, {useState} from 'react';
 
 const Navbar = () => {  
 
-    const [burgerStatus, setBurgerStatus] = useState(false)
+    const [navHeight, setNavHeight] = useState('80px')
+    const [isOpen, setOpen] = useState(false)
 
+    const handleClick = () => {
+            setNavHeight('80px')
+            setOpen(false)
+    }
     return ( 
-        <nav className="navbar">
+        <nav className="navbar" style={{height: navHeight}}>
             <h3 className="name">
                 Marcus Teo
             </h3>
@@ -26,22 +31,23 @@ const Navbar = () => {
                         size = {40}
                         rounded 
                         color="#FFFDD0"
-                        onToggle={toggle => {
-                            if (toggle) {
-                                document.getElementsByClassName("hamburger-menu")[0].style.display = "flex";
-                            } else {
-                                document.getElementsByClassName("hamburger-menu")[0].style.display = "none";
+                        onToggle={toggled => {
+                            if (toggled) {
+                                setNavHeight('250px');
+                            }
+                            else {
+                                setNavHeight('80px');
                             }
                         }}
                         />
                     </div>
                 </ul>
-                <div className="hamburger-menu">
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/AboutMe'>About</Link></li>
-                    <li><Link to='/Projects'>Projects</Link></li>
-                    <li><Link to='/Experience'>Experience</Link></li>
-                </div>
+            </div>
+            <div className="hamburger-menu">
+                    <li onClick={handleClick}><Link to='/'>Home</Link></li>
+                    <li onClick={handleClick}><Link to='/AboutMe'>About</Link></li>
+                    <li onClick={handleClick}><Link to='/Projects'>Projects</Link></li>
+                    <li onClick={handleClick}><Link to='/Experience'>Experience</Link></li>
             </div>
         </nav>
         );
