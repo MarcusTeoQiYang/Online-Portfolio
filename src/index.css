@@ -229,12 +229,12 @@ body {
   box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
 .box p {
-  padding: 5px;
+  padding: 10px;
+  text-align: initial;
 }
 
 .projcontainer h3 {
   text-align: center;
-  padding-bottom: 2px;
   margin-bottom: 0px;
 }
 .linkbox {
@@ -264,7 +264,6 @@ body {
   text-decoration: none;
 }
 .proj p {
-  text-align: center;
   font-size: 13px;
 }
 .proj h2 {
@@ -687,7 +686,7 @@ section {
     overflow-x: scroll;
     justify-content: start;
   }
-  .schroj::-webkit-scrollbar {
+  .schproj::-webkit-scrollbar {
     display: none;
   }
 

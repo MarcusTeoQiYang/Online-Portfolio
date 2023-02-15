@@ -31,9 +31,12 @@ const Projects = () => {
                     <img src={ YumWhat } id="Portfolio" />
                     </div>
                         <h3>YumWhat?!</h3>
-                        <p>YumWhat?! gets nearby food location and randomly pick for you if you want.</p>
+                        <p>When it comes to deciding what to eat, I'm always indecisive. Hence I created YumWhat?!, 
+                        YumWhat?! is a ReactJS and Google Maps API-based app that helps indecisive people find nearby
+                         food options and offers a random picker.
+                        </p>
                         <div className="linkbox">
-                        <a href="#"><button>GitHub<FaGithub/></button></a>
+                        <a href="https://github.com/MarcusTeoQiYang/YumWhat" target="blank"><button>GitHub<FaGithub/></button></a>
                         <a  href="https://yumwhat.web.app/" target="blank"><button>Check it out!</button></a>
                         </div>
                 </div>
@@ -62,11 +65,11 @@ const Projects = () => {
                     <img src={ MP } alt="soon" />
                     </div>
                     <h3>EmBEDded IOT</h3>
-                    <p>For our Year 3 major project, my group collaborated 
-                        with Apex Harmony Lodge to tackle a problem statement 
-                        by constructing a prototype out of Raspberry Pi and 
-                        sensors that improves nurses' deployment to elders 
-                        at night.</p>
+                    <p>"For my year 3 project at Temasek Polytechnic,
+                         my group and I created a smart bed prototype
+                          called EmBEDded for Apex Harmony Lodge.
+                           EmBEDded uses sensors and a Raspberry Pi 
+                           to monitor the movements of elderly residents at night."</p>
                     <div className="linkbox">
                         <a href="https://docs.google.com/document/d/1YKmXxZbrGsMoAgdf_3qFliQxU8c234kM/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Report</button></a>
                         <a href="https://docs.google.com/presentation/d/1PYPQgOXhpAPwTGWbhekpWYJl5yQP9Y0j/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Slides</button></a>
@@ -76,11 +79,12 @@ const Projects = () => {
                 <div className="projimage">
                     <img src={ VR } alt="soon" />
                     </div>
-                    <h3>VR Final project</h3>
+                    <h3>Short Circuit VR</h3>
                     <p>
-                    This project was created in 3ds Max and coded in C# in Unity. 
-                    This VR experience simulates an engineering lab, where participants may learn about 
-                    lab safety and circuit patching.
+                    In my year 3 VR final project, my group and I created 'Short Circuit',
+                     a VR simulation of an engineering lab. Using 3ds Max for modelling and C# 
+                     in Unity for coding, we developed an experience that teaches participants 
+                     about lab safety and circuit patching.
                     </p>
                     <div className="linkbox">
                         <a href="https://github.com/MarcusTeoQiYang/Short-Circuit-VR" target="blank"><button>GitHub<FaGithub/></button></a>
