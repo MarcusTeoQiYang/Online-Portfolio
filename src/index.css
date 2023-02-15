@@ -35,9 +35,32 @@ body {
   position: fixed; */
   
 }
+.hamburger {
+  display: none;
+  position: relative;
+  
+}
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0c192c;
+  width: auto;
+  height: 150px;
+  position: relative;
+  z-index: 10;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+.hamburger-menu li {
+  font-size: 1.5rem;
+}
 .navbar h3 {
   text-align: center;
   color: #f1356d;
+  padding-top: 5px;
 }
 .navbar a {
   
@@ -82,7 +105,7 @@ body {
   font-size: 2rem;
   padding-right: 30%;
   padding-left: 10%;
-  z-index: 100;
+
   padding-top: 15%;
 }
 
@@ -95,6 +118,9 @@ body {
 }
 .title lol {
     color:#FFFDD0;
+}
+.title ul {
+  padding-top: 10px;
 }
 .title a {
   padding: 0.3rem;
@@ -151,6 +177,7 @@ body {
   color: #000;
   
 }
+
 .bio2 {
   padding-bottom: 3%;
 }
@@ -625,11 +652,20 @@ section {
     color: #FFFDD0;
     transition: all 0.35s ease;
   }
+  .hamburger {
+    display: initial;
+    height:auto;
+    width:auto;
+    margin-left: auto;
+    -webkit-tap-highlight-color: transparent;
+  }
+
   .navbar ul li {
     margin: auto;
     padding: auto;
     padding-right: 10px;
     padding-left: 10px;
+    display: none;
   }
   /* About me */
   .skills h2, .bio2 {
