@@ -31,6 +31,8 @@ const Navbar = () => {
                         size = {40}
                         rounded 
                         color="#FFFDD0"
+                        toggled = {isOpen}
+                        toggle = {setOpen}
                         onToggle={toggled => {
                             if (toggled) {
                                 setNavHeight('250px');
