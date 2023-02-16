@@ -1,8 +1,8 @@
 import Bulb from '../images/Bulb.png'
 import Funny from '../images/Funny.JPG'
-// c
 
 const Interest = () => {
+
     return ( 
         <div className="int">
             <h1><div className="highlight">Ideas/Interest</div></h1>

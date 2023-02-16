@@ -2,7 +2,9 @@ import Me from '../images/PhotoMe.jpg'
 import { FaPython,FaReact,FaJava,FaUnity, FaCss3, FaHtml5 } from 'react-icons/fa';
 import { DiJavascript } from "react-icons/di";
 import { SiFirebase,SiCsharp,SiSelenium,SiApachejmeter } from "react-icons/si"
+
 const Aboutme = () => {
+    
     return ( 
         <div className="me">
             <div className="biocontainer">
@@ -49,13 +51,7 @@ const Aboutme = () => {
                         </div>
                         <div className="bio-text">
                                 <h2 className='bio2'>Making things work is my passion!&#128161;</h2>
-                                <p>I'm a Computer Engineering student at Temasek Polytechnic who has 
-                                    always had an interest with computers. I learned a variety of coding 
-                                    languages during my education. In addition, I've got VR development experience.
-                                     As a result, I've developed an interest in programming. An experienced developer,
-                                      in my opinion, can manage a wide range of tasks. I believe in lifelong learning 
-                                      and am now working on honing and enhancing my coding skills by regularly coding 
-                                      to maintain consistency.</p>
+                                <p>Hello, I'm Marcus, a third-year Computer Engineering student at Temasek Polytechnic. I have always been fascinated in the world of technology, I am a firm believer in the concept of lifelong learning and constantly on personal projects to enhance my skills and learn new things. Check out the cool stuff that I have been doing/working on!</p>
                     </div>
             </div>
             

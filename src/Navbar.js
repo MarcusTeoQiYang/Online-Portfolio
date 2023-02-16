@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import {Squash as Hamburger} from 'hamburger-react';
 import React, {useState} from 'react';
 
-const Navbar = () => {  
+const Navbar = ({selected}) => {  
 
     const [navHeight, setNavHeight] = useState('60px')
     const [isOpen, setOpen] = useState(false)
@@ -20,10 +20,10 @@ const Navbar = () => {
             </h3>
             <div className="links">
                 <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/AboutMe'>About me</Link></li>
-                    <li><Link to='/Projects'>Projects</Link></li>
-                    <li><Link to='/Experience'>Experience</Link></li>
+                    <li><Link to='/' className={'navButtons ${selected === "home" ? "active" : "inactive"}'}>Home</Link></li>
+                    <li><Link to='/AboutMe' className={'navButtons ${selected === "about" ? "active" : "inactive"}'}>About me</Link></li>
+                    <li><Link to='/Projects' className={'navButtons ${selected === "projects" ? "active" : "inactive"}'}>Projects</Link></li>
+                    <li><Link to='/Experience' className={'navButtons ${selected === "experience" ? "active" : "inactive"}'}>Experience</Link></li>
                     {/* <li><Link to='/Interest'>Ideas!!</Link></li> */}
 
                     {/* <li><a href="#contactme">Contact me</a></li> */}

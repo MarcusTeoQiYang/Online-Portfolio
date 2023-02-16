@@ -1,4 +1,5 @@
 import {FaGithub, FaEnvelope, FaLinkedin, FaInstagram} from "react-icons/fa";
+
 const Title = () => {
     return (
         <div className="title">

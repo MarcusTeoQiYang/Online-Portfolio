@@ -4,22 +4,25 @@ import Soon from '../images/ComingSoon.jpg'
 import VR from '../images/VrJPEG.JPG'
 import MP from '../images/MP.JPG'
 import YumWhat from '../images/YumWhat.JPG'
+import React, {useEffect} from 'react';
 
 const Projects = () => {
+    
     return ( 
         <div className="proj">
-            <h1><div className="highlight">My projects</div></h1>
+            <h1><div className="highlight">Projects</div></h1>
             <div className="projcontainer">
-                <h2>Personal Projects</h2>
+                <h2>Personal projects</h2>
                 <div className="myproj">
                 <div className="box">
                 <div className="projimage">
                     <img src={ Port } alt="Portfolio" />
                     </div>
                         <h3>Personal website</h3>
-                        <p>This is my first online portfolio website
-                        which I have build using ReactJS and HTML,
-                        I have also styled it using CSS.</p>
+                        <p>I have created my first online portfolio website using ReactJS and HTML, 
+                            and styled it with CSS.
+                            I have also optimized the design for mobile devices to ensure the website is easily
+                             accessible on any device.</p>
                         <div className="linkbox">
                         <a href="https://github.com/MarcusTeoQiYang/Online-Portfolio" target= "blank"><button>GitHub<FaGithub/></button></a>
                         </div>
@@ -74,6 +77,7 @@ const Projects = () => {
                         <a href="https://docs.google.com/document/d/1YKmXxZbrGsMoAgdf_3qFliQxU8c234kM/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Report</button></a>
                         <a href="https://docs.google.com/presentation/d/1PYPQgOXhpAPwTGWbhekpWYJl5yQP9Y0j/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Slides</button></a>
                     </div>
+                    <a href="https://drive.google.com/file/d/1BJunv7CULnovZCiyxmBXhUjMFJPXDY6A/view?usp=share_link" target="blank"><button>Awarded Certificate</button></a>
                 </div>
                 <div className="box">
                 <div className="projimage">
@@ -92,6 +96,19 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+                {/* <h2>OurCodeLab projects</h2>
+                <div className="oclproj">
+                <div className="box">
+                <div className="projimage">
+                    <img src={ MP } alt="soon" />
+                    </div>
+                    <h3>SIT Archives</h3>
+                    <p>Test test test test test</p>
+                    <div className="linkbox">
+
+                    </div>
+                </div>
+                </div> */}
             </div> 
         </div>
      );

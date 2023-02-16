@@ -11,12 +11,13 @@ import ScrollToTop from './js/ScrollToTop';
 
 
 function App() {
+
+
+
   return (
       <div className="App">
         <ScrollToTop/>
-        <div className="nav">
         <Navbar/>
-        </div>
         <Routes>
         <Route path="/" element={<Title />} />
         <Route path="/AboutMe" element={<AboutMe />} />
