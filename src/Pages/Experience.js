@@ -56,7 +56,7 @@ const Experience = () => {
                 </div>
                 </div>
                 <div className="exp-right">
-                <h3>Job scope: System Performance Tester</h3>
+                <h3>Job scope: Automation Tester</h3>
                 <p>September 2022 - March 2023</p>
                 </div>
                 </div>

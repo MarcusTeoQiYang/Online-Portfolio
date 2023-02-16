@@ -11,6 +11,7 @@ const Navbar = () => {
             setNavHeight('60px')
             setOpen(false)
     }
+    
     return ( 
         <nav className="navbar" style={{height: navHeight}}>
             <div className="wrap">
