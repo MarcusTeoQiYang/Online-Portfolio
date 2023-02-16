@@ -7,11 +7,13 @@ import Interest from '../src/Pages/Interest';
 import Footer from './Footer';
 import {Route, Routes} from 'react-router-dom';
 import React, {useEffect} from 'react';
+import ScrollToTop from './js/ScrollToTop';
 
 
 function App() {
   return (
       <div className="App">
+        <ScrollToTop/>
         <div className="nav">
         <Navbar/>
         </div>
