@@ -6,6 +6,7 @@ import Projects from '../src/Pages/Projects';
 import Interest from '../src/Pages/Interest';
 import Footer from './Footer';
 import {Route, Routes} from 'react-router-dom';
+import React, {useEffect} from 'react';
 
 
 function App() {
