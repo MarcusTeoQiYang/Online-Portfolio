@@ -9,6 +9,7 @@
 
 }
 body {
+  margin-top: 60px;
   background-color: #0c192c;
   height: 100vh;
   width: auto;
@@ -24,19 +25,15 @@ body {
   /* CSS Smooth scroll */
 }
 .navbar {
-  /* justify-content: center;
-  z-index: 100;
-  display: flex; */
   z-index: 110;
   width: 100%;
   background-color: #0c192c;
-  position: sticky;
+  position: fixed;
   top: 0px;
   transition: height 0.7s;
   overflow: hidden;
-  /* background: rgba(0, 0, 0, 0.2); */
-  /* border-bottom: 1px solid #FFFDD0;
-  position: fixed; */
+  border-bottom: solid;
+  border-color: #f1356d;
   
 }
 .hamburger {
@@ -76,9 +73,9 @@ body {
   color: #f1356d;
 }
 .navbar ul li {
-  padding: 1rem;
-  /* margin-left: 70px;
-  margin-right: 70px; */
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* .nav .links {
   width: auto;
@@ -650,6 +647,17 @@ section {
     height: 645px;
   }
   /* Navbar */
+  .wrap {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .navbar h3 {
+    margin: 10px;
+    padding: 10px;
+  }
   .navbar a {
     margin: auto;
     text-decoration: none;
