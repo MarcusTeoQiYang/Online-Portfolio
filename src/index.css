@@ -30,7 +30,7 @@ body {
   background-color: #0c192c;
   position: fixed;
   top: 0px;
-  transition: height 0.7s;
+  transition: height 0.5s;
   overflow: hidden;
   border-bottom: solid;
   border-color: #f1356d;
