@@ -27,7 +27,6 @@ const Title = () => {
                 strings={[
                     "Hi I'm <u>Marcus</u> | <lol>Computer<br/>Engineer</lol>",
                     "I am a tech driven person!",
-                    "I am a life long learner!",
                     "I am a problem solver!"
                 ]}
                 typeSpeed={100}

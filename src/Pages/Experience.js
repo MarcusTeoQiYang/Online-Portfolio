@@ -29,9 +29,6 @@ const Experience = () => {
                       me the opportunity to learn what it's like to interact 
                       with clients and how coding is applied to a workplace. 
                       Its like a side hustle!</p>
-                      <div className="expbuttonbox">
-                        {/* <button className='expbutton'>What I'm doing</button> */}
-                      </div>
                     
                 </div>
                 </div>
@@ -54,9 +51,6 @@ const Experience = () => {
                 • Tested all dashboard load time in REAMS by simulating users and navigating to them using JMeter.<br/><br/>
                 • Assisted in the development of the division's first Selenium web automation framework, which will
                  be used not only on REAMS but also on future projects that the division will work on. </p>
-                    <div className="expbuttonbox">
-                        {/* <button className='expbutton'>What I did</button> */}
-                    </div>
                 </div>
                 </div>
                 <div className="exp-right">

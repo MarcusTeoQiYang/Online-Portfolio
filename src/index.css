@@ -164,7 +164,10 @@ canvas {
 .title a:hover{
   color: #EEEEEE;
 }
-.me img {
+.bioimage {
+  margin-right: 75px;
+}
+.bioimage img {
   border-radius: 50%;
   padding: 5px;
   height: 200px;
@@ -213,15 +216,42 @@ canvas {
 .me-top {
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  width: 55%;
+  width: 60%;
 
+}
+.me-edu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: auto;
+}
+.schimg {
+  width: 200px;
+  margin: 10px;
+}
+.schimg p {
+  font-size: 15px;
+}
+
+.schimg img{
+  border: solid;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
 }
 .bio-text h2 {
   padding-top: 2%;
   color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bio-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -273,16 +303,43 @@ canvas {
   border-style: solid;
 }
 .me p {
-  font-size: 1.5rem;
+  font-size: 17px;
+  
+}
+.bio-sect {
   display: flex;
   justify-content: center;
-  color: #212121;
   text-decoration: none;
-  width: 500px;
+  width: auto;
   height: auto;
   border-radius: 10px;
   border-style: solid;
   background-color: #EEEEEE;
+  padding: 10px;
+  margin: 10px;
+  min-width: 300px;
+  align-items: center;
+}
+.bio-sect2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  border-style: solid;
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin: 10px;
+  min-width: 300px;
+  align-items: center;
+}
+
+.schimg p {
+  font-size: 15px;
+}
+.me-edu h3 {
+  padding: 10px;
 }
 /* Project page */
 .proj {
@@ -381,6 +438,7 @@ canvas {
   flex-direction: row;
   padding: 10px;
   width: auto;
+  overflow: hidden;
 }
 
 /* Experience page */
@@ -418,10 +476,16 @@ canvas {
 }
 .expcontainer {
   width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .expbox {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  text-align: center;
   background-color: #EEEEEE;
   border-radius: 15px;
   border-style: solid;
@@ -436,8 +500,8 @@ canvas {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 250px;
-  margin-right: 250px;
+  width: 70%;
+
 
 }
 .expcontainer img {
@@ -451,7 +515,7 @@ canvas {
 }
 .exp-content p {
   color: #212121;
-  font-size: 20px;
+  font-size: 17px;
 }
 .exp img {
   display: block;
@@ -467,6 +531,7 @@ canvas {
 }
 .exp-left {
   width: auto;
+  margin: 10px;
 }
 
 /* Interest page */
@@ -610,6 +675,8 @@ section {
   background-color: #212121;
   padding: 70px 0;
   z-index: 100;
+  border-top: solid;
+  border-color: #00ADB5;
 }
 .footer-col {
   width: 30%;
@@ -737,7 +804,7 @@ section {
   }
   /* About me */
   .skills h2, .bio2, .me-edu h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
   }
@@ -754,13 +821,16 @@ section {
     align-items: center;
 
   }
-
+  .me-top {
+    flex-direction: column;
+  }
+  .bioimage {
+    margin: 0px;
+  }
   .me p {
-    height: auto;
-    width: 350px;
-    font-size: 20px;
-    margin: 10px;
+    font-size: 1rem;
     padding: 5px;
+    margin: 5px;
   }
   .skillicons {
 
@@ -768,6 +838,9 @@ section {
   .skills-col {
     font-size: 10px;
     width: auto;
+  }
+  .bio-sect2 {
+    flex-direction: column;
   }
   /* Projects */
 
@@ -780,7 +853,7 @@ section {
     
   }
   .myproj, .schproj  {
-    width: 365px;
+    width: 75vw;
     overflow-x: scroll;
     justify-content: start;
   }
@@ -798,7 +871,7 @@ section {
   }
   .exp-content p {
     text-align: center;
-    padding: 10px;
+    align-items: center;
   }
   .expbuttonbox {
     margin-top: 15px;
@@ -806,6 +879,7 @@ section {
    .expbox {
     flex-direction: column;
     width: auto;
+    
    }
    .exp h1, .proj h1, .me h1, .int h1 {
     justify-content: center;
@@ -815,8 +889,7 @@ section {
     padding-top:  15px;
   }
   .expspace {
-    margin-left: 0px;
-    margin-right: 0px;
+    width: auto;
   }
   .exp h3 {
     width: auto;
