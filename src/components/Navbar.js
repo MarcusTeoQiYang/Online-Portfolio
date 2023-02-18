@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom';
 import {Squash as Hamburger} from 'hamburger-react';
-import React, {useState} from 'react';
+import {useState} from 'react';
+import React from 'react';
 
 const Navbar = ({selected}) => {  
 
@@ -32,7 +33,7 @@ const Navbar = ({selected}) => {
                         distance='lg'
                         size = {40}
                         rounded 
-                        color="#FFFDD0"
+                        color="#EEEEEE"
                         toggled = {isOpen}
                         toggle = {setOpen}
                         onToggle={toggled => {

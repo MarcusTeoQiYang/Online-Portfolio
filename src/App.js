@@ -1,11 +1,11 @@
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 import Title from '../src/Pages/Title';
 import Experience from '../src/Pages/Experience';
 import AboutMe from '../src/Pages/AboutMe';
 import Projects from '../src/Pages/Projects';
 import Interest from '../src/Pages/Interest';
-import Footer from './Footer';
-import {Route, Routes} from 'react-router-dom';
+import Footer from './components/Footer';
+import {Route, Routes, useLocation} from 'react-router-dom';
 import React, {useEffect} from 'react';
 import ScrollToTop from './js/ScrollToTop';
 

@@ -1,10 +1,11 @@
+import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import Port from '../images/PortJPEG.JPG'
 import Soon from '../images/ComingSoon.jpg'
 import VR from '../images/VrJPEG.JPG'
 import MP from '../images/MP.JPG'
 import YumWhat from '../images/YumWhat.JPG'
-import React, {useEffect} from 'react';
+import {useEffect} from 'react';
 
 const Projects = () => {
     
