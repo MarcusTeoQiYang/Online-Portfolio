@@ -136,6 +136,7 @@ canvas {
 }
 .title-heading {
   z-index: 2;
+  width: auto;
 }
 .title h1 , h3{
   color: #000;
@@ -227,6 +228,12 @@ canvas {
   align-items: center;
   text-align: center;
   width: auto;
+}
+.edu-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .schimg {
   width: 200px;
@@ -333,6 +340,10 @@ canvas {
   margin: 10px;
   min-width: 300px;
   align-items: center;
+}
+.bio-sect2 p {
+  padding: 10px;
+  margin: 5px;
 }
 
 .schimg p {
@@ -500,7 +511,7 @@ canvas {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 75%;
 
 
 }
@@ -766,6 +777,9 @@ section {
     font-size: 1.85rem;
     height: 645px;
   }
+  .title-heading {
+    width: 300px;
+  }
   /* Navbar */
   .wrap {
     height: 60px;
@@ -790,6 +804,7 @@ section {
     width:auto;
     margin-left: auto;
     -webkit-tap-highlight-color: transparent;
+    padding-right: 5px;
   }
 
   .navbar ul li {
@@ -802,6 +817,7 @@ section {
   .links {
     padding-right: 0px;
   }
+  
   /* About me */
   .skills h2, .bio2, .me-edu h2 {
     font-size: 1.2rem;
@@ -821,8 +837,20 @@ section {
     align-items: center;
 
   }
+
   .me-top {
     flex-direction: column;
+  }
+  .edu-body {
+    align-items: flex-start;
+    width: 95vw;
+    flex-direction: row;
+    overflow-x: hidden;
+    justify-content: start;
+    overflow: scroll;
+  }
+  .edu-body::-webkit-scrollbar {
+    display: none;
   }
   .bioimage {
     margin: 0px;
@@ -841,6 +869,7 @@ section {
   }
   .bio-sect2 {
     flex-direction: column;
+    position: relative;
   }
   /* Projects */
 

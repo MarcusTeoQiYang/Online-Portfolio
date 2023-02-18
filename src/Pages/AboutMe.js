@@ -68,6 +68,7 @@ const Aboutme = () => {
                         </div>
                         <div className="me-edu">
                             <h2>Education</h2>
+                            <div className="edu-body">
                             <div className="bio-sect2">
                                 
                             <div className="schimg">
@@ -80,8 +81,8 @@ const Aboutme = () => {
                                     to pursue Computer Engineering as my area of focus for my second and third years of study.<br/><br/>
                                     My time in Computer Engineering diploma was well spent, during my studies I have learned various
                                      coding languages such as Python, Java and C#. I have also gain experience in 3D modelling and VR 
-                                     Programming via Autodesk 3ds and Unity respectively. With the skills that I have gained I am able 
-                                     to contribute to the digitalisation process of Singapore</p>
+                                     Programming via Autodesk 3ds and Unity respectively. With my current skill set, I am confident that
+                                      I can play a part in Singapore's drive towards greater digitalization.</p>
                         </div>
                         <div className="bio-sect2">
                                 <div className="schimg">
@@ -95,6 +96,7 @@ const Aboutme = () => {
                                     During my time in Loyang View Secondary School, I participated in the school's symphonic band as a percussionist. 
                                     Being a part of the band taught me the values of discipline and patience.</p>
                             </div>
+                        </div>
                         </div>
             </div>
             

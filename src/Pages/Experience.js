@@ -20,15 +20,7 @@ const Experience = () => {
                 </div>
                 <div className="exp-left">
                 <div className="exp-content">
-                <p>OurCodeLab is a start up company founded by my friend. 
-                    OurCodeLab curates holistic, user-friendly digital 
-                    experiences and also builds
-                     software for their clients; I joined his company 
-                     to learn from more experienced people than myself while also 
-                     working alongside them. Working here will also provide
-                      me the opportunity to learn what it's like to interact 
-                      with clients and how coding is applied to a workplace. 
-                      Its like a side hustle!</p>
+                <p>I joined a startup called OurCodeLab, which was founded by a friend of mine. The company's focus is on creating user-friendly digital experiences, and they also build software for clients. My primary motivation for joining was to learn from more experienced colleagues and improve my coding skills. Additionally, I saw this as an opportunity to gain insight into how coding is applied in a professional setting and to learn how to interact with clients. Working with OurCodeLab feels like a side hustle, but it's also an exciting way for me to learn and grow.</p>
                     
                 </div>
                 </div>
@@ -46,9 +38,8 @@ const Experience = () => {
                 <div className="exp-left">
                 
                 <div className="exp-content">
-                <p>As an intern at ST Engineering, I was responsible for testing the performance of the Rail Enterprise Asset Management System (REAMS), 
-                    a web-based project developed for the Land Transport Authority (LTA). I have also extended my internship to gain more exposure<br/><br/>
-                • Tested all dashboard load time in REAMS by simulating users and navigating to them using JMeter.<br/><br/>
+                <p>ADuring my internship at ST Engineering, I was tasked with testing the performance of the Rail Enterprise Asset Management System (REAMS). This web-based project was developed for the Land Transport Authority (LTA), and it was important to ensure that it functioned optimally. I was able to gain valuable experience in this role, and I found it to be an engaging challenge. In fact, I was so keen to broaden my exposure to different aspects of the project that I decided to extend my internship.<br/><br/>
+                • I used JMeter to simulate user behavior and navigate through the various dashboards in REAMS to test their load time.<br/><br/>
                 • Assisted in the development of the division's first Selenium web automation framework, which will
                  be used not only on REAMS but also on future projects that the division will work on. </p>
                 </div>
@@ -66,14 +57,7 @@ const Experience = () => {
                     </div>
                 <div className="exp-left">
                 <div className="exp-content">
-                <p>I've learned a lot from this one month 
-                    part-time job. I've learned to be more 
-                    patient because I was required to find
-                     different products around the store and
-                      then pack them for delivery. I've also
-                       learned to be more organized and efficient
-                        because I was expected to pack the products 
-                        quickly to maximize efficiency.</p>
+                <p>Thanks to my one-month part-time job, I have gained valuable learning experiences. One of these is being more patient, as I had to search for various products within the store and prepare them for delivery. Additionally, I have developed my organizational and efficiency skills, as I was expected to pack the products quickly to optimize productivity.</p>
                 </div>
                 </div>
                 <div className="exp-right">
@@ -89,12 +73,7 @@ const Experience = () => {
                 </div>
                 <div className="exp-left">
                 <div className="exp-content">
-                <p>I worked as a cashier, storeroom assistant, 
-                    and online order packer, among other things.
-                    I've worked in a variety of retail settings. I've improved my 
-                    communication skills through interacting with customers, 
-                    as well as my multi-tasking abilities 
-                    by dealing with several customers at the same time.</p>
+                <p>Having worked in various retail settings, I have held multiple positions, including cashier, storeroom assistant, and online order packer, among others. Through my experiences, I have strengthened my communication skills by engaging with customers, as well as honed my ability to multitask by serving several customers simultaneously.</p>
                 </div>
                 </div>
                 <div className="exp-right">
