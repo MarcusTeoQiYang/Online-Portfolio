@@ -73,7 +73,7 @@ const Projects = () => {
                          my group and I created a smart bed prototype
                           called EmBEDded for Apex Harmony Lodge.
                            EmBEDded uses sensors and a Raspberry Pi 
-                           to monitor the movements of elderly residents at night.</p>
+                           to monitor the movements of elderly residents on bed at night.</p>
                     <div className="linkbox">
                         <a href="https://docs.google.com/document/d/1YKmXxZbrGsMoAgdf_3qFliQxU8c234kM/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Report</button></a>
                         <a href="https://docs.google.com/presentation/d/1PYPQgOXhpAPwTGWbhekpWYJl5yQP9Y0j/edit?usp=sharing&ouid=108693576352860861961&rtpof=true&sd=true" target="blank"><button>Slides</button></a>

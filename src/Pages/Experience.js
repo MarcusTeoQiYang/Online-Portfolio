@@ -38,7 +38,7 @@ const Experience = () => {
                 <div className="exp-left">
                 
                 <div className="exp-content">
-                <p>ADuring my internship at ST Engineering, I was tasked with testing the performance of the Rail Enterprise Asset Management System (REAMS). This web-based project was developed for the Land Transport Authority (LTA), and it was important to ensure that it functioned optimally. I was able to gain valuable experience in this role, and I found it to be an engaging challenge. In fact, I was so keen to broaden my exposure to different aspects of the project that I decided to extend my internship.<br/><br/>
+                <p>During my internship at ST Engineering, I was tasked with testing the performance of the Rail Enterprise Asset Management System (REAMS). This web-based project was developed for the Land Transport Authority (LTA), and it was important to ensure that it functioned optimally. I was able to gain valuable experience in this role, and I found it to be an engaging challenge. In fact, I was so keen to broaden my exposure to different aspects of the project that I decided to extend my internship.<br/><br/>
                 • I used JMeter to simulate user behavior and navigate through the various dashboards in REAMS to test their load time.<br/><br/>
                 • Assisted in the development of the division's first Selenium web automation framework, which will
                  be used not only on REAMS but also on future projects that the division will work on. </p>
