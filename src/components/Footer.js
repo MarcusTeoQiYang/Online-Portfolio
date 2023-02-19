@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-col">
                     <h4>Marcus Teo</h4>
                     <h5>2022,Build and designed by Marcus Teo<br/>
-                    using React, CSS and HTML<br/>
+                    using ReactJS, CSS and HTML<br/>
                     <FaReact size="1.5rem"/>
                     <FaCss3 size="1.5rem"/><FaHtml5 size="1.5rem"/></h5>
                 </div>
