@@ -56,6 +56,7 @@ body {
   text-decoration: none;
   list-style: none;
   padding: 10px;
+  font-weight: bold;
 }
 .hamburger-menu li {
   font-size: 1.5rem;

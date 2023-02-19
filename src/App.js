@@ -6,13 +6,11 @@ import Projects from '../src/Pages/Projects';
 import Interest from '../src/Pages/Interest';
 import Footer from './components/Footer';
 import {Route, Routes, useLocation} from 'react-router-dom';
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import ScrollToTop from './js/ScrollToTop';
 
 
 function App() {
-
-
 
   return (
       <div className="App">
