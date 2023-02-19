@@ -3,7 +3,7 @@ import {Squash as Hamburger} from 'hamburger-react';
 import {useState} from 'react';
 import React from 'react';
 
-const Navbar = ({selected}) => {  
+const Navbar = ({selected, }) => {  
 
     const [navHeight, setNavHeight] = useState('60px')
     const [isOpen, setOpen] = useState(false)
@@ -21,10 +21,10 @@ const Navbar = ({selected}) => {
             </h3>
             <div className="links">
                 <ul>
-                    <li><Link to='/' className={'navButtons ${selected === "home" ? "active" : "inactive"}'}>Home</Link></li>
-                    <li><Link to='/AboutMe' className={'navButtons ${selected === "about" ? "active" : "inactive"}'}>About me</Link></li>
-                    <li><Link to='/Projects' className={'navButtons ${selected === "projects" ? "active" : "inactive"}'}>Projects</Link></li>
-                    <li><Link to='/Experience' className={'navButtons ${selected === "experience" ? "active" : "inactive"}'}>Experience</Link></li>
+                    <li><Link to='/' style={{color: selected === "home" ? "turquoise" : "#eeeeee"}} className={'navButtons ${selected === "home" ? "active" : "inactive"}'}>Home</Link></li>
+                    <li><Link to='/AboutMe'  style={{color: selected === "about" ? "turquoise" : "#eeeeee"}} className={'navButtons ${selected === "about" ? "active" : "inactive"}'}>About me</Link></li>
+                    <li><Link to='/Projects' style={{color: selected === "projects" ? "turquoise" : "#eeeeee"}} className={'navButtons ${selected === "projects" ? "active" : "inactive"}'}>Projects</Link></li>
+                    <li><Link to='/Experience' style={{color: selected === "experience" ? "turquoise" : "#eeeeee"}} className={'navButtons ${selected === "experience" ? "active" : "inactive"}'}>Experience</Link></li>
                     {/* <li><Link to='/Interest'>Ideas!!</Link></li> */}
 
                     {/* <li><a href="#contactme">Contact me</a></li> */}
