@@ -8,11 +8,14 @@
 
 
 }
+html {
+  
+}
 
 body {
   margin-top: 60px;
   background-color: #212121;
-  height: 100vh;
+
   width: auto;
   /* overflow: hidden; */
 }
@@ -113,12 +116,13 @@ body {
 
 
 .title {
-  height: 500px;
+  height: 100vh;
   width: auto;
   font-size: 2rem;
-  padding-right: 30%;
-  padding-left: 10%;
-  padding-top: 15%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
   
 }
 
@@ -138,6 +142,7 @@ canvas {
 .title-heading {
   z-index: 2;
   width: auto;
+  padding-left: 10%;
 }
 .title h1 , h3{
   color: #000;
@@ -147,7 +152,7 @@ canvas {
   font-weight: bold;
 }
 .title h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   z-index: 50;
 }
 .title lol {
@@ -155,6 +160,7 @@ canvas {
 }
 .title ul {
   padding-top: 10px;
+  font-size: 40px;
   
 }
 .title a {
@@ -775,11 +781,18 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 1.85rem;
-    height: 645px;
+    font-size: 1.55rem;
+    height: 100vh;
   }
   .title-heading {
     width: 300px;
+    padding: 0px;
+  }
+  .title ul {
+    font-size: 30px;
+  }
+  .title h3 {
+    font-size: 1.1rem;
   }
   /* Navbar */
   .wrap {
@@ -789,6 +802,7 @@ section {
     align-items: center;
     
   }
+
   .navbar h3 {
     margin: 10px;
     padding: 10px;

@@ -13,8 +13,19 @@ const Navbar = () => {
             setNavHeight('60px')
             setOpen(false)
     }
+    // const resetNav = () => {
 
-    const location = useLocation();
+    //     var screenWidth = window.screen.width;
+    //     if (screenWidth >= 900) {
+    //         useEffect(() => {
+    //             setNavHeight('60px')
+    //             setOpen(false)
+    //         })
+                
+    //     }
+    // }
+    const getLocation = () => {
+        const location = useLocation();
     
     if (location.pathname === "/") {
         useEffect(() => {
@@ -38,6 +49,10 @@ const Navbar = () => {
         })
     
     }
+    
+    }
+
+    getLocation()
     
     return ( 
         <nav className="navbar" style={{height: navHeight}}>
