@@ -14,32 +14,30 @@ const Navbar = () => {
             setOpen(false)
     }
 
-        
-      
-        const location = useLocation();
-      
-        if (location.pathname === "/") {
-          useEffect(() => {
+    const location = useLocation();
+    
+    if (location.pathname === "/") {
+        useEffect(() => {
             setPath('home')
-          })
+        })
           
-        } else if (location.pathname === "/AboutMe") {
-          useEffect(() => {
+    } else if (location.pathname === "/AboutMe") {
+        useEffect(() => {
             setPath('about')
-          })
-        }
-        else if (location.pathname ==="/Projects") {
-          useEffect(() => {
+        })
+    }
+    else if (location.pathname ==="/Projects") {
+        useEffect(() => {
             setPath('projects')
-          })
+        })
     
-        }
-        else if (location.pathname === "/Experience") {
-          useEffect(() => {
+    }
+    else if (location.pathname === "/Experience") {
+        useEffect(() => {
             setPath('experience')
-          })
+        })
     
-        }
+    }
     
     return ( 
         <nav className="navbar" style={{height: navHeight}}>
@@ -49,17 +47,17 @@ const Navbar = () => {
             </h3>
             <div className="links">
                 <ul>
-                    <li><Link to='/' style={{color: path === "home" ? "#00ADB5" : "#eeeeee"}}>Home</Link></li>
-                    <li><Link to='/AboutMe'  style={{color: path === "about" ? "#00ADB5" : "#eeeeee"}}>About me</Link></li>
-                    <li><Link to='/Projects' style={{color: path === "projects" ? "#00ADB5" : "#eeeeee"}}>Projects</Link></li>
-                    <li><Link to='/Experience' style={{color: path === "experience" ? "#00ADB5" : "#eeeeee"}}>Experience</Link></li>
+                    <li><Link to='/' style={{color: path === "home" ? "#00ADB5" : "#EEEEEE"}}>Home</Link></li>
+                    <li><Link to='/AboutMe'  style={{color: path === "about" ? "#00ADB5" : "#EEEEEE"}}>About me</Link></li>
+                    <li><Link to='/Projects' style={{color: path === "projects" ? "#00ADB5" : "#EEEEEE"}}>Projects</Link></li>
+                    <li><Link to='/Experience' style={{color: path === "experience" ? "#00ADB5" : "#EEEEEE"}}>Experience</Link></li>
                     {/* <li><Link to='/Interest'>Ideas!!</Link></li> */}
 
                     {/* <li><a href="#contactme">Contact me</a></li> */}
                     <div className="hamburger">
                         <Hamburger 
-                        distance='lg'
-                        size = {40}
+                        distance='md'
+                        size = {33}
                         rounded y
                         color="#EEEEEE"
                         toggled = {isOpen}
@@ -78,10 +76,10 @@ const Navbar = () => {
             </div>
             </div>
             <div className="hamburger-menu">
-                    <li onClick={handleClick}><Link to='/' style={{color: path === "home" ? "#00ADB5" : "#eeeeee"}}>Home</Link></li>
-                    <li onClick={handleClick}><Link to='/AboutMe' style={{color: path === "about" ? "#00ADB5" : "#eeeeee"}}>About me</Link></li>
-                    <li onClick={handleClick}><Link to='/Projects' style={{color: path === "projects" ? "#00ADB5" : "#eeeeee"}}>Projects</Link></li>
-                    <li onClick={handleClick}><Link to='/Experience' style={{color: path === "experience" ? "#00ADB5" : "#eeeeee"}}>Experience</Link></li>
+                    <li onClick={handleClick}><Link to='/' style={{color: path === "home" ? "#00ADB5" : "#EEEEEE"}}>Home</Link></li>
+                    <li onClick={handleClick}><Link to='/AboutMe' style={{color: path === "about" ? "#00ADB5" : "#EEEEEE"}}>About me</Link></li>
+                    <li onClick={handleClick}><Link to='/Projects' style={{color: path === "projects" ? "#00ADB5" : "#EEEEEE"}}>Projects</Link></li>
+                    <li onClick={handleClick}><Link to='/Experience' style={{color: path === "experience" ? "#00ADB5" : "#EEEEEE"}}>Experience</Link></li>
             </div>
         </nav>
         );
