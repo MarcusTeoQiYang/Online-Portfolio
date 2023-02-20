@@ -43,7 +43,7 @@ const particleConfig = {
               },
               {
                 "src": `${CSS}`,
-                "height": 25,
+                "height": 20,
                 "width": 20
             },
             {
