@@ -9,8 +9,6 @@ import Typed from 'react-typed'
 const Title = () => {
 
     const particlesInit = async (main) => {
-        console.log(main);
-    
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
         // starting from v2 you can add only the features you need reducing the bundle size
@@ -25,9 +23,9 @@ const Title = () => {
             <div className="title-heading">
             <Typed
                 strings={[
-                    "Hi I'm <u>Marcus</u> | <lol>Computer<br/>Engineer</lol>",
-                    "I am a tech driven person!",
-                    "I am a problem solver!"
+                    "Hi I'm <u>Marcus</u> | <lol>Computer<br/>Engineer</lol>.",
+                    "I am a <lol>tech driven</lol> person!",
+                    "I am a <lol>problem solver</lol>!"
                 ]}
                 typeSpeed={100}
                 backSpeed={50}
