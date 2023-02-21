@@ -76,27 +76,26 @@ body {
   text-decoration: none;
   color: #EEEEEE;
   transition: all 0.35s ease;
+
 }
 .navbar a:hover {
   color: #00ADB5;
 }
-.navbar ul li {
+.nav-link {
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
   padding: 20px;
+}
+.burger-link {
+  font-size: 1.25rem
 }
 .links {
   padding-right: 30px;
   font-weight: bold;
 }
 
-.navbar ul {
-  display: flex;
-  list-style: none;
-  width: auto;
-  justify-content: center;
-}
+
 .wrap {
   height: 60px;
   display: flex;
@@ -813,21 +812,18 @@ section {
     color: #EEEEEE;
     transition: all 0.35s ease;
   }
+  .nav-link {
+    display: none;
+  }
   .hamburger {
-    display: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height:auto;
     width:auto;
     margin-left: auto;
     -webkit-tap-highlight-color: transparent;
     padding-right: 5px;
-  }
-
-  .navbar ul li {
-    margin: auto;
-    padding: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-    display: none;
   }
   .links {
     padding-right: 0px;

@@ -13,17 +13,7 @@ const Navbar = () => {
             setNavHeight('60px')
             setOpen(false)
     }
-    // const resetNav = () => {
 
-    //     var screenWidth = window.screen.width;
-    //     if (screenWidth >= 900) {
-    //         useEffect(() => {
-    //             setNavHeight('60px')
-    //             setOpen(false)
-    //         })
-                
-    //     }
-    // }
     const getLocation = () => {
         const location = useLocation();
     
@@ -61,11 +51,10 @@ const Navbar = () => {
                 Marcus Teo
             </h3>
             <div className="links">
-                <ul>
-                    <li><Link to='/' style={{color: path === "home" ? "#00ADB5" : "#EEEEEE"}}>Home</Link></li>
-                    <li><Link to='/AboutMe'  style={{color: path === "about" ? "#00ADB5" : "#EEEEEE"}}>About me</Link></li>
-                    <li><Link to='/Projects' style={{color: path === "projects" ? "#00ADB5" : "#EEEEEE"}}>Projects</Link></li>
-                    <li><Link to='/Experience' style={{color: path === "experience" ? "#00ADB5" : "#EEEEEE"}}>Experience</Link></li>
+                    <Link to='/' className ='nav-link' style={{color: path === "home" ? "#00ADB5" : "#EEEEEE"}}>Home</Link>
+                    <Link to='/AboutMe' className = 'nav-link' style={{color: path === "about" ? "#00ADB5" : "#EEEEEE"}}>About me</Link>
+                    <Link to='/Projects' className = 'nav-link' style={{color: path === "projects" ? "#00ADB5" : "#EEEEEE"}}>Projects</Link>
+                    <Link to='/Experience' className = 'nav-link' style={{color: path === "experience" ? "#00ADB5" : "#EEEEEE"}}>Experience</Link>
                     {/* <li><Link to='/Interest'>Ideas!!</Link></li> */}
 
                     {/* <li><a href="#contactme">Contact me</a></li> */}
@@ -87,14 +76,13 @@ const Navbar = () => {
                         }}
                         />
                     </div>
-                </ul>
             </div>
             </div>
             <div className="hamburger-menu">
-                    <li onClick={handleClick}><Link to='/' style={{color: path === "home" ? "#00ADB5" : "#EEEEEE"}}>Home</Link></li>
-                    <li onClick={handleClick}><Link to='/AboutMe' style={{color: path === "about" ? "#00ADB5" : "#EEEEEE"}}>About me</Link></li>
-                    <li onClick={handleClick}><Link to='/Projects' style={{color: path === "projects" ? "#00ADB5" : "#EEEEEE"}}>Projects</Link></li>
-                    <li onClick={handleClick}><Link to='/Experience' style={{color: path === "experience" ? "#00ADB5" : "#EEEEEE"}}>Experience</Link></li>
+                    <Link to='/' className = 'burger-link' onClick={handleClick} style={{color: path === "home" ? "#00ADB5" : "#EEEEEE"}}>Home</Link>
+                    <Link to='/AboutMe' className = 'burger-link' onClick={handleClick} style={{color: path === "about" ? "#00ADB5" : "#EEEEEE"}}>About me</Link>
+                    <Link to='/Projects' className = 'burger-link' onClick={handleClick} style={{color: path === "projects" ? "#00ADB5" : "#EEEEEE"}}>Projects</Link>
+                    <Link to='/Experience' className = 'burger-link' onClick={handleClick} style={{color: path === "experience" ? "#00ADB5" : "#EEEEEE"}}>Experience</Link>
             </div>
         </nav>
         );
