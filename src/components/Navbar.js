@@ -14,35 +14,27 @@ const Navbar = () => {
             setOpen(false)
     }
 
-    const getLocation = () => {
+    const GetLocation = () => {
         const location = useLocation();
     
-    if (location.pathname === "/") {
         useEffect(() => {
-            setPath('home')
-        })
-          
-    } else if (location.pathname === "/AboutMe") {
-        useEffect(() => {
-            setPath('about')
-        })
-    }
-    else if (location.pathname ==="/Projects") {
-        useEffect(() => {
-            setPath('projects')
-        })
+            if (location.pathname === "/") {
+                    setPath('home')
+            } else if (location.pathname === "/AboutMe") {
+                    setPath('about')
+            }
+            else if (location.pathname ==="/Projects") {
+                    setPath('projects')
+            }
+            else if (location.pathname === "/Experience") {
+                    setPath('experience')
+            }
+        },[location]);
     
-    }
-    else if (location.pathname === "/Experience") {
-        useEffect(() => {
-            setPath('experience')
-        })
-    
-    }
     
     }
 
-    getLocation()
+    GetLocation()
     
     return ( 
         <nav className="navbar" style={{height: navHeight}}>
