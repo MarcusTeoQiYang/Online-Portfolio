@@ -27,8 +27,9 @@ const Title = () => {
                     "I am a <lol>tech driven</lol> person!",
                     "I am a <lol>problem solver</lol>!"
                 ]}
-                typeSpeed={100}
-                backSpeed={50}
+                typeSpeed={25}
+                backSpeed={25}
+                backDelay={5000}
                 loop/>
             {/* <h1>Hi I'm <u>Marcus</u> | <lol>Computer<br/>Engineer</lol></h1> */}
             <div className="social-icon">
