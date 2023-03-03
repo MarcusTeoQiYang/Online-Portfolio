@@ -27,8 +27,8 @@ const Title = () => {
                     "I am a <lol>tech driven</lol> person!",
                     "I am a <lol>problem solver</lol>!"
                 ]}
-                typeSpeed={25}
-                backSpeed={25}
+                typeSpeed={35}
+                backSpeed={35}
                 backDelay={5000}
                 loop/>
             {/* <h1>Hi I'm <u>Marcus</u> | <lol>Computer<br/>Engineer</lol></h1> */}
