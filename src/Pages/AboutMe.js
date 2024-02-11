@@ -30,7 +30,7 @@ const Aboutme = () => {
                         <div className="skillicons">
                             <div className="sect1">
                             <div className="skills-col">
-                                <h2><u>Language</u></h2>
+                                <h2><u>Programming Language</u></h2>
                                 <ul>
                                     <FaPython size = '2rem'/>
                                     <SiCsharp size = '2rem'/>

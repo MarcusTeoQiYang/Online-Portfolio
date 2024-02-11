@@ -195,6 +195,7 @@ canvas {
   width: 200px;
   border-style: solid;
   object-fit: cover;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 
   background: linear-gradient(#323232,#323232) padding-box, linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) border-box;
   background-size: 300% 300%;
@@ -233,6 +234,7 @@ canvas {
   width: auto;
   text-align: center;
   align-items: center;
+  
 }
 .me-top {
   margin-top: 20px;
@@ -269,6 +271,7 @@ canvas {
   height: 200px;
   object-fit: contain;
   border-radius: 10px;
+  background-color: #EEEEEE;
 }
 .bio-text h2 {
   padding-top: 2%;
@@ -311,14 +314,16 @@ canvas {
 .skillicons  {
   display: flex;
   width: auto;
+  
 }
 .sect1, .sect2 {
   width: auto;
+  
 }
 .skills-col {
   display: flex;
   flex-direction: column;
-  padding: 0 15px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   width: auto;
@@ -328,9 +333,17 @@ canvas {
   margin: 10px;
   color: #212121;
   border-style: solid;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+
+}
+.skills-col h2 {
+  margin: 5px;
+}
+.skills-col ul {
+  margin: 5px;
 }
 .me p {
-  font-size: 17px;
+  color: #EEEEEE ;
   
 }
 .bio-sect {
@@ -341,12 +354,18 @@ canvas {
   height: auto;
   border-radius: 10px;
   border-style: solid;
-  background-color: #EEEEEE;
+  background-color: #222831;
   padding: 10px;
   margin: 10px;
   min-width: 300px;
   align-items: center;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38); 
 }
+
+.bio-sect p {
+  font-size: 17px;
+}
+
 .bio-sect2 {
   display: flex;
   justify-content: center;
@@ -355,22 +374,21 @@ canvas {
   height: auto;
   border-radius: 10px;
   border-style: solid;
-  background-color: #EEEEEE;
+  background-color: #222831;
   padding: 10px;
   margin: 10px;
   min-width: 300px;
   align-items: center;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
 .bio-sect2 p {
   padding: 10px;
   margin: 5px;
 }
 
-.schimg p {
-  font-size: 15px;
-}
 .me-edu h3 {
   padding: 10px;
+  color: #EEEEEE;
 }
 /* Project page */
 .proj {
@@ -879,6 +897,7 @@ section {
   }
   .bioimage {
     margin: 0px;
+    
   }
   .me p {
     font-size: 1rem;
