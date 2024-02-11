@@ -20,6 +20,19 @@ body {
   /* overflow: hidden; */
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+body::-webkit-scrollbar-track{
+  background: #212121;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #00ADB5;
+  border-radius: 20px;
+  border: solid #212121;
+}
+
 .App {
   position: relative;
   width: 100%;
@@ -135,16 +148,17 @@ body {
    
 }
 canvas {
-  background: #393E46;
+  background: rgba(255, 255, 255, 0.15);
   filter: blur(1.5px);
 }
 .title-heading {
   z-index: 2;
   width: auto;
   padding-left: 10%;
+  color: #111;
 }
 .title h1 , h3{
-  color: #000;
+  color: #111;
 }
 .title span {
   font-size: 1.5em;
@@ -155,7 +169,7 @@ canvas {
   z-index: 50;
 }
 .title lol {
-    color:#EEEEEE;
+    color:#EEE;
 }
 .title ul {
   padding-top: 10px;
@@ -164,7 +178,7 @@ canvas {
 }
 .title a {
   padding: 0.3rem;
-  color: #000;
+  color: #111;
   transition: all 0.35s ease;
 
 }

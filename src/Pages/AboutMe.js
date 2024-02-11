@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from '../images/PhotoMe.PNG'
+import Me from '../images/PhotoMe2.jpg'
 import { FaPython,FaReact,FaJava,FaUnity, FaCss3, FaHtml5 } from 'react-icons/fa';
 import { DiJavascript } from "react-icons/di";
 import { SiFirebase,SiCsharp,SiSelenium,SiApachejmeter } from "react-icons/si"
