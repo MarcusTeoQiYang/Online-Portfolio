@@ -5,6 +5,7 @@ import Soon from '../images/ComingSoon.jpg'
 import VR from '../images/VrJPEG.JPG'
 import MP from '../images/MP.JPG'
 import YumWhat from '../images/YumWhat.JPG'
+import Valen from '../images/BeMyValentine.png'
 import {useEffect} from 'react';
 
 const Projects = () => {
@@ -45,6 +46,18 @@ const Projects = () => {
                         </div>
                 </div>
 
+                <div className="box">
+                <div className="projimage">
+                    <img src={ Valen } alt="Portfolio" />
+                    </div>
+                        <h3>AskValentineOut</h3>               
+                        <p>Create a cute website to ask your potential valentine out!! Its functions are all front-end making use of the useState component in React</p>
+                        <div className="linkbox">
+                        <a  href=""><button>GitHub<FaGithub/></button></a>
+                        <a  href="https://askvalentineout.web.app" target='blank'><button>Check it out!</button></a>
+                        </div>
+                </div>
+                
                 <div className="box">
                 <div className="projimage">
                     <div className="blur">
