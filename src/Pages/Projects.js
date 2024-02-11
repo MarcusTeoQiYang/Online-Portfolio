@@ -51,7 +51,7 @@ const Projects = () => {
                     <img src={ Valen } alt="Portfolio" />
                     </div>
                         <h3>AskValentineOut</h3>               
-                        <p>Create a cute website to ask your potential valentine out!! Its functions are all front-end making use of the useState component in React</p>
+                        <p>Created a cute website to ask your potential valentine out!! Its functions are all front-end making use of the useState component in React.</p>
                         <div className="linkbox">
                         <a  href="https://github.com/MarcusTeoQiYang/bemyvalentine" target='blank'><button>GitHub<FaGithub/></button></a>
                         <a  href="https://askvalentineout.web.app" target='blank'><button>Check it out!</button></a>

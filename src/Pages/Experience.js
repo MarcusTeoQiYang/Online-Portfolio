@@ -20,7 +20,7 @@ const Experience = () => {
                 </div>
                 <div className="exp-left">
                 <div className="exp-content">
-                <p>I joined a startup called OurCodeLab, which was founded by a friend of mine. The company's focus is on creating user-friendly digital experiences, and they also build software for clients. My primary motivation for joining was to learn from more experienced colleagues and improve my coding skills. Additionally, I saw this as an opportunity to gain insight into how coding is applied in a professional setting and to learn how to interact with clients. Working with OurCodeLab feels like a side hustle, but it's also an exciting way for me to learn and grow.</p>
+                <p>I joined a startup called OurCodeLab, which was founded by a friend of mine. The company's focus is on creating user-friendly digital experiences, and also build software for clients. My primary motivation for joining was to learn from more experienced colleagues and improve my coding skills. Additionally, I saw this as an opportunity to gain insight into how coding is applied in a professional setting and to learn how to interact with clients. Working with OurCodeLab feels like a side hustle, but it's also an exciting way for me to learn and grow.</p>
                     
                 </div>
                 </div>
