@@ -34,7 +34,7 @@ const Footer = () => {
                                 <a href="https://www.linkedin.com/in/marcus-teo-8b6484240/" target = "blank">
                                     <FaLinkedin />
                                 </a>
-                                <a href="https://www.instagram.com/potarteos/" target = "blank">
+                                <a href="https://www.instagram.com/potarteo/" target = "blank">
                                     <FaInstagram />
                                 </a>
                                 <a href="mailto:marcus.teo.sg@gmail.com" target = "blank">
