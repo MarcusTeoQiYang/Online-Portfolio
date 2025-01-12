@@ -7,7 +7,7 @@ import JS from '../../images/JS.png'
 const particleConfig = {
   "particles": {
       "number": {
-          "value": 20,
+          "value": 6,
           "density": {
               "enable": true,
               "value_area": 800

@@ -20,7 +20,7 @@ const Experience = () => {
                 </div>
                 <div className="exp-left">
                 <div className="exp-content">
-                <p>I joined a startup called OurCodeLab, which was founded by a friend of mine. The company's focus is on creating user-friendly digital experiences, and also build software for clients. My primary motivation for joining was to learn from more experienced colleagues and improve my coding skills. Additionally, I saw this as an opportunity to gain insight into how coding is applied in a professional setting and to learn how to interact with clients. Working with OurCodeLab feels like a side hustle, but it's also an exciting way for me to learn and grow.</p>
+                <p>I joined OurCodeLab, a dynamic startup driven by a passionate team focused on providing software as a service. This opportunity provided valuable insights into the industry, client relationships, and strengthened my technical skills in web development. Working alongside like-minded individuals also gave me a deeper understanding of the collaborative dynamics within the tech industry, enhancing my ability to problem-solve in a team-oriented environment. This experience has been instrumental in shaping my professional growth and approach to building impactful solutions.</p>
                     
                 </div>
                 </div>

@@ -148,8 +148,9 @@ body::-webkit-scrollbar-thumb{
    
 }
 canvas {
+  /* background: #808080; */
   background: rgba(255, 255, 255, 0.15);
-  /* filter: blur(1.5px); */
+  filter: blur(2.25px);
 }
 .title-heading {
   z-index: 2;
@@ -706,7 +707,8 @@ section {
   }
 }
 .me, .proj, .exp {
-  background: #323232;
+  background: #323232; 
+  /* background: #808080; */
   border-top-style: solid;
   height: auto;
 }

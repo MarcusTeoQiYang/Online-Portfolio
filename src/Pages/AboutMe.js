@@ -19,7 +19,7 @@ const Aboutme = () => {
                         <div className="bio-text">
                                 <h2 className='bio2'>Making things work is my passion!&#128161;</h2>
                                 <div className="bio-sect">
-                                <p>Hello, I'm Marcus, a third-year Computer Engineering student at Temasek Polytechnic. I have always been fascinated in the world of technology, I am a firm believer in the concept of lifelong learning and constantly work on personal projects to enhance my skills and to solve day-to-day problem that I face. Check out the cool stuff that I have been doing/working on!</p>
+                                <p>I'm Marcus, a Computer Engineering graduate passionate about creating innovative solutions to real-world challenges. With expertise in programming, system design, and problem-solving, I’m dedicated to driving change through creativity. I thrive in collaborative, team-driven environments and value lifelong learning. Outside of work, I explore photography and enjoy activities that challenge my growth. Check out the cool stuff I have been doing/worked on!</p>
                         </div>
                     </div>
                     </div>
